@@ -12,4 +12,5 @@ public interface ICursoService {
     public Curso editCurso(Long id, String nuevoNombre, String nuevaModalidad, List<Tema> nuevaListaTemas);
     public void deleteCurso(Long id);
 
+
 }

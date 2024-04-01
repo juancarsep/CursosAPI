@@ -14,7 +14,7 @@ public class Curso {
     private Long id_curso;
     private String nombre;
     private String modalidad;
-    @OneToMany
+    @OneToMany (mappedBy = "curso")
     private List<Tema> listaDeTemas;
 
     public Curso() {
